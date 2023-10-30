@@ -1,4 +1,4 @@
-#include <cs50.h>
+// #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -21,7 +21,7 @@ int main (void)
     people[2].name = "Alice";
     people[2].number = "867-5309";
 
-    string name = get_string("Name: ");
+    string name = scanf("Name: ");
     for(int i=0; i<3; i++)
     {
         if (strcmp(people[i].name,name) == 0)
